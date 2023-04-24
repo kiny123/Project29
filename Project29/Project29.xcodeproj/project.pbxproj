@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		11EAF62C29F5DF4C0050994E /* hitPlayer.sks in Resources */ = {isa = PBXBuildFile; fileRef = 11EAF62A29F5DF4C0050994E /* hitPlayer.sks */; };
 		11EAF62D29F5DF4C0050994E /* hitBuilding.sks in Resources */ = {isa = PBXBuildFile; fileRef = 11EAF62B29F5DF4C0050994E /* hitBuilding.sks */; };
+		11EAF63029F7348C0050994E /* Wind.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11EAF62F29F7348C0050994E /* Wind.swift */; };
 		11F54E9829F1958D0047CDB8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F54E9729F1958D0047CDB8 /* AppDelegate.swift */; };
 		11F54E9A29F1958D0047CDB8 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 11F54E9929F1958D0047CDB8 /* GameScene.sks */; };
 		11F54E9E29F1958D0047CDB8 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F54E9D29F1958D0047CDB8 /* GameScene.swift */; };
@@ -21,6 +22,7 @@
 /* Begin PBXFileReference section */
 		11EAF62A29F5DF4C0050994E /* hitPlayer.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = hitPlayer.sks; sourceTree = "<group>"; };
 		11EAF62B29F5DF4C0050994E /* hitBuilding.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = hitBuilding.sks; sourceTree = "<group>"; };
+		11EAF62F29F7348C0050994E /* Wind.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wind.swift; sourceTree = "<group>"; };
 		11F54E9429F1958D0047CDB8 /* Project29.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Project29.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		11F54E9729F1958D0047CDB8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		11F54E9929F1958D0047CDB8 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -65,6 +67,7 @@
 				11F54E9729F1958D0047CDB8 /* AppDelegate.swift */,
 				11F54E9929F1958D0047CDB8 /* GameScene.sks */,
 				11F54E9D29F1958D0047CDB8 /* GameScene.swift */,
+				11EAF62F29F7348C0050994E /* Wind.swift */,
 				11F54EAF29F1CF9B0047CDB8 /* BuildingNode.swift */,
 				11F54E9F29F1958D0047CDB8 /* GameViewController.swift */,
 				11F54EA129F1958D0047CDB8 /* Main.storyboard */,
@@ -149,6 +152,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				11F54E9E29F1958D0047CDB8 /* GameScene.swift in Sources */,
+				11EAF63029F7348C0050994E /* Wind.swift in Sources */,
 				11F54EB029F1CF9B0047CDB8 /* BuildingNode.swift in Sources */,
 				11F54EA029F1958D0047CDB8 /* GameViewController.swift in Sources */,
 				11F54E9829F1958D0047CDB8 /* AppDelegate.swift in Sources */,
